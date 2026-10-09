@@ -1,0 +1,13 @@
+insight_id,type,indicator,entity,period,value,prev_value,change_pct,severity,explanation
+INS-0001,correlation,anc_coverage: high_risk_cases,Statewide,All periods,-0.933,,,High,Strong negative linear correlation (r = -0.93) detected between Anc Coverage and High Risk Cases across observed districts.
+INS-0002,correlation,institutional_delivery: immunization,Statewide,All periods,0.979,,,High,Strong positive linear correlation (r = +0.98) detected between Institutional Delivery and Immunization across observed districts.
+INS-0003,outlier,anc_coverage,Mehsana,2026-08,42.0,78.33,-46.4,High,"Mehsana's Anc Coverage of 42 in 2026-08 is a statistical outlier crossing the lower bound 69.88 (state mean: 78.33, delta: -36.33)."
+INS-0004,outlier,high_risk_cases,Mehsana,2026-08,28.0,13.42,108.6,High,"Mehsana's High Risk Cases of 28 in 2026-08 is a statistical outlier crossing the upper bound 21.38 (state mean: 13.42, delta: +14.58)."
+INS-0005,trend,anc_coverage,Ahmedabad,2026-08,69.0,85.0,-18.82,High,"Anc Coverage in Ahmedabad dropped by 18.8% (from 85 to 69) compared to 2026-07, exceeding the 10.0% significant-change threshold."
+INS-0006,trend,high_risk_cases,Ahmedabad,2026-08,13.0,10.0,30.0,High,"High Risk Cases in Ahmedabad increased by 30.0% (from 10 to 13) compared to 2026-07, exceeding the 10.0% significant-change threshold."
+INS-0007,trend,anc_coverage,Mehsana,2026-08,42.0,84.0,-50.0,High,"Anc Coverage in Mehsana dropped by 50.0% (from 84 to 42) compared to 2026-07, exceeding the 10.0% significant-change threshold."
+INS-0008,trend,high_risk_cases,Mehsana,2026-08,28.0,11.0,154.55,High,"High Risk Cases in Mehsana increased by 154.6% (from 11 to 28) compared to 2026-07, exceeding the 10.0% significant-change threshold."
+INS-0009,outlier,immunization,Vadodara,2026-08,97.0,91.58,5.9,Medium,"Vadodara's Immunization of 97 in 2026-08 is a statistical outlier crossing the upper bound 96.0 (state mean: 91.58, delta: +5.42)."
+INS-0010,trend,high_risk_cases,Vadodara,2026-08,6.0,7.0,-14.29,Medium,"High Risk Cases in Vadodara dropped by 14.3% (from 7 to 6) compared to 2026-07, exceeding the 10.0% significant-change threshold."
+INS-0011,outlier,anc_coverage,Ahmedabad,2026-08,69.0,78.33,-11.9,Low,"Ahmedabad's Anc Coverage of 69 in 2026-08 is a statistical outlier crossing the lower bound 69.88 (state mean: 78.33, delta: -9.33)."
+INS-0012,trend,high_risk_cases,Bhavnagar,2026-08,15.0,17.0,-11.76,Low,"High Risk Cases in Bhavnagar dropped by 11.8% (from 17 to 15) compared to 2026-07, exceeding the 10.0% significant-change threshold."
